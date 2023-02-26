@@ -37,6 +37,8 @@ class AI:
         self.incoming_message = incoming_message;
         string, int_value, float_value = analyzeSentiment(self.incoming_message)
         neg_score = int_value['neg']
+        pos_score= int-value['pos']
+        nuetral  = int_value[
         self.setMood(neg_score)
 
     #temp function
